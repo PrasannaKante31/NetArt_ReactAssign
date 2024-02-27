@@ -4,7 +4,7 @@ export default function UpperContent (){
     return (
         <div className="UpperContent">
             <span className="leftBlock">
-                <img src="./essentials/trophy.png" style={{width:"100%"}}/>
+                <img src="trophy.png" style={{width:"100%"}}/>
             </span>
             
             <div className="rightBlock" >
