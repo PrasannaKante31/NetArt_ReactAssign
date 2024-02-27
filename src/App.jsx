@@ -9,6 +9,7 @@ function App() {
   return (
     <>
        <Head/>
+       <hr/>
        <UpperContent/>
        <LowerContent/>
        <Footer/>
