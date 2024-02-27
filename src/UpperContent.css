@@ -1,0 +1,26 @@
+.UpperContent {
+    display: flex; /* Make UpperContent a flex container */
+    justify-content: space-evenly; /* Distribute space evenly between flex items */
+    max-height: 50%;
+    flex-wrap: wrap;
+
+}
+
+.rightBlock {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1; /* Make the rightBlock flexible */
+    /* Additional styling for rightBlock if needed */
+    width: 70%;
+    min-width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftBlock {
+    flex-grow: 1; /* Make the leftBlock flexible */
+    width: 30%;
+    min-width: 100px;
+    /* Additional styling for leftBlock if needed */
+}
+
